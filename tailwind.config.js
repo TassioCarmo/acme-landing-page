@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  // Specify the content to scan for CSS classes
   content: ["./build/*.html", "./build/js/*.js"],
   theme: {
     extend: {
